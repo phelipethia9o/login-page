@@ -1,0 +1,34 @@
+input{
+width: 100%;
+border-radius: 8px 0px 0 8px;
+padding: 12px 0px 12px 20px;
+background-color: #F1F3F6;
+color: #555555;
+border: #C2C2C2 solid 1px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: #555555;
+}
+
+.input-content{
+    width: 100%;
+    display: flex;
+    margin-bottom: 22px;
+    margin-top: 10px;
+
+}
+
+.icon{
+    border-radius: 0px 8px 8px 0px;
+    padding: 12px;
+    border: black solid 1px;
+    background-color: #7001FD;
+
+}
+
+img{
+    height: 20px;
+}

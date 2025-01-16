@@ -5,10 +5,14 @@
 
     <h2>{{text}}</h2>
 
+    <ng-content></ng-content>
+
     <div class="btn-wrapper">
         <button class="primaryBtn"> {{primaryBtnText}} </button>
-        <div>
+        <div class="divider">
+            <div></div>
             <span>or</span>
+            <div></div>
         </div>
         <button class="secondaryBtn"> {{secondaryBtnText}} </button>
     </div>

@@ -14,6 +14,20 @@ main{
     justify-content: center;
 }
 
+img{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 section{
     height: 100%;
     display: flex;
@@ -24,21 +38,12 @@ section{
 
 .main-sec{
     flex-grow: 1;
-    background-color: #C2C2C2;
+    background-color: #EEEEEE;
 }
 
 .form-sec{
     flex-grow: .3;
     padding: 0 35px;
-}
-
-button{
-    width: 100%;
-    border-radius: 8px;
-    font-weight: 500;
-    border: none;
-    padding: 12px 24px;
-    cursor: pointer;
 }
 
 .btn-wrapper{
@@ -50,9 +55,34 @@ button{
     gap: 30px; 
 }
 
+button{
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
 .primaryBtn{
     color: whitesmoke;
     background-color: #7001FD;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #C2C2C2;
+    gap: 30px;
+    width: 100%;
+    text-transform: uppercase;
+
+    div{
+        flex-grow: 1;
+        height: 1px;
+        background-color: #C2C2C2;
+    }
 }
 
 .secondaryBtn{
