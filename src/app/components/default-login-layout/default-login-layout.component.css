@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #7001FD;
+    --secondary: #1E2772;
+    --bg-color: #C2C2C2;
+    --text-color: #555555;
+}
+
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-sec{
+    flex-grow: 1;
+    background-color: #C2C2C2;
+}
+
+.form-sec{
+    flex-grow: .3;
+    padding: 0 35px;
+}
+
+button{
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.primaryBtn{
+    color: whitesmoke;
+    background-color: #7001FD;
+}
+
+.secondaryBtn{
+    color: #7001FD;
+    border: 1px solid;
+    border-color:#7001FD;
+}
