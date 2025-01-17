@@ -1,0 +1,44 @@
+<app-default-login-layout
+text="Register your account"
+primaryBtnText="Login Now"
+secondaryBtnText="Sign up Now"
+>
+<form [formGroup]="signUpForm">
+        <app-primary-input
+        formControlName="name"
+        inputName="name"
+        type="text"
+        label="Name"
+        placeholder="Type your name"
+        >
+        <img src="svg/email-icon.svg">
+        </app-primary-input>
+        <app-primary-input
+        formControlName="email"
+        inputName="email"
+        type="email"
+        label="Email adress"
+        placeholder="youremail@email.com"
+        >
+        <img src="svg/email-icon.svg">
+        </app-primary-input>
+        <app-primary-input
+        formControlName="password"
+        inputName="password"
+        type="password"
+        label="Password"
+        placeholder="Enter your password"
+        >
+        <img src="svg/password-icon.svg">
+
+        </app-primary-input>
+        <app-primary-input
+        formControlName="password"
+        inputName="password"
+        type="password"
+        placeholder="Repeat your password"
+        >
+        <img src="svg/password-icon.svg">
+    </app-primary-input>
+</form>
+</app-default-login-layout>
